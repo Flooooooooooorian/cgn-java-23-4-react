@@ -5,7 +5,7 @@ type SearchBarProps = {
 }
 
 export default function SearchBar(props: Readonly<SearchBarProps>) {
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState<string>("")
 
     const handleSearch = (event: ChangeEvent<HTMLInputElement>) => {
         setSearch(event.target.value)
