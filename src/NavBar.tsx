@@ -13,6 +13,7 @@ export default function NavBar() {
             <Link to={"/"} >Home</Link>
             <Link to={"/characters"} >Characters</Link>
             <NavLink to={"/counter"} >Counter</NavLink>
+            <NavLink to={"/characters/add"} >Add</NavLink>
             <button onClick={redirect}>Nav</button>
         </div>
     )

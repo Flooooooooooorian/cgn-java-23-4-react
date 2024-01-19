@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom";
+import {Character} from "./models.ts";
 
 type RickAndMortyCharacterProps = {
-    character: {id: number, name: string}
+    character: Character
 }
 export default function RickAndMortyCharacter(props: RickAndMortyCharacterProps) {
 
